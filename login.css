@@ -1,0 +1,56 @@
+:root{
+	--main: #7b4ee4 ;
+	--darkblue: #362078;
+	--black: #060606;
+	--white: #e7dff4;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: system-ui;
+}
+.clearfix{
+	clear: both;
+}
+header{
+	padding: 20px 0px;
+	box-shadow: 2px 2px 15px var(--black);
+}
+.container{
+	width: 1140px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+.logo{
+	font-weight: bold;
+	font-size: 25px;
+	color: var(--black);
+}
+.logo span{
+	color: var(--main);
+}
+.nav{
+	float: right;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	padding: 3px 20px;
+}
+.nav li a{
+	text-decoration: none;
+	color: var(--black);
+}
+.nav li button{
+	padding: 7px 15px;
+    background: var(--main);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -5px;
+}

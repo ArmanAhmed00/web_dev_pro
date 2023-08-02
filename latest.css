@@ -27,8 +27,8 @@ header{
 }
 .logo{
 	font-weight: bold;
-	font-size: 25px;
-	color: var(--black);
+	font-size: 30px;
+	color: black;
 }
 .logo span{
 	color: var(--main);
